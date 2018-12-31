@@ -45,6 +45,7 @@ a{
   position: fixed;
   top:0;
   width: 100%;
+  background-color: white
 }
 .blue{
   background: #7abcff; /* Old browsers */

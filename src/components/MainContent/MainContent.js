@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './MainContact.css'
+import './MainContent.css'
 export default class MainContent extends Component {
   render() {
     return (

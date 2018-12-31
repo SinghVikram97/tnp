@@ -4,7 +4,7 @@ import './Navbar.css'
 class Navbar extends Component {
   render() {
     return (
-      <nav className="zone">
+      <nav className="zone sticky">
         <div id="collegeName">
           Delhi Technological University
         </div>
