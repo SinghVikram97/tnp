@@ -1,0 +1,24 @@
+.wrapper{
+  margin-top:3%;
+  margin-left:2%;
+  margin-right:5%;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns:1fr; 
+  justify-self: center;
+  align-self: center;
+}
+.recruiter{
+  font-family: 'Thasadith', sans-serif;
+  font-weight: 800;
+  padding-left:10%; 
+}
+.grey{
+  width:129px;
+  height:auto;
+}
+.logos{
+  display: inline-block;
+  white-space: nowrap;
+  overflow-x: scroll;
+}

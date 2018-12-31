@@ -1,0 +1,35 @@
+.footer{
+  background-color: #595D6A;
+  margin-top:3%;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  color:white;
+  justify-items: center
+}
+.about{
+  font-family: 'Thasadith', sans-serif;
+  font-weight: bolder;
+  padding-left:10%;
+}
+h1{
+  text-decoration: underline;
+  text-decoration-color: rgb(14, 113, 158);
+  font-size:1.5rem !important;
+}
+.footerP{
+  line-height: 1.6;
+  font-family: 'Ubuntu',Arial,serif;
+  font-weight: 400;
+  font-size:1.2rem;
+  color:white
+}
+.footerA{
+  color:white;
+  display: block;
+}
+.footerA:hover{
+  color:rgb(14, 113, 158);
+  background-color: whitesmoke;
+  text-decoration: underline;
+}
