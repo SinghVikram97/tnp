@@ -14,10 +14,55 @@ class Navbar extends Component {
             </img>
           </li>
           <li className="logoHeading">Training & Placement Dept.</li>
-          <li><a href="ww">Why Recruit?</a><img alt="dropDown" src="http://i63.tinypic.com/a10f1c.png"></img></li>
-          <li><a href="ww">For Companies</a><img alt="dropDown" src="http://i63.tinypic.com/a10f1c.png"></img></li>
-          <li><a href="ww">For Students</a><img alt="dropDown" src="http://i63.tinypic.com/a10f1c.png"></img></li>
-          <li><a href="ww">Contact</a><img alt="dropDown" src="http://i63.tinypic.com/a10f1c.png"></img></li>
+          <li>
+            <div className="dropdown">
+               <a href="ww">Why Recruit?</a><img alt="dropDown" src="http://i63.tinypic.com/a10f1c.png"></img>
+               <div className="dropdown-content">
+                  <a href='#'> Why recruit?</a>
+                  <a href='#'>Academics</a>
+                  <a href='#'>Demographics</a>
+                  <a href='#'>Faculty</a>
+                  <a href='#'>Research</a>
+                  <a href='#'>Extra-Curriculars</a>
+                  <a href='#'>Alumni</a>
+               </div>
+            </div>
+          </li>
+          <li>
+            <div className="dropdown">
+               <a href="ww">For Companies</a><img alt="dropDown" src="http://i63.tinypic.com/a10f1c.png"></img>
+               <div className="dropdown-content">
+                  <a href='#'> Company Registration</a>
+                  <a href='#'>Procedure and Policy</a>
+                  <a href='#'>Facilities</a>
+                  <a href='#'>Placement Automation System</a>
+                  <a href='#'>Internship Automation System</a>
+                  <a href='#'>FAQs</a>
+               </div>
+            </div>
+          </li>
+          <li>
+            <div className="dropdown">
+               <a href="ww">For Students</a><img alt="dropDown" src="http://i63.tinypic.com/a10f1c.png"></img>
+               <div className="dropdown-content">
+                  <a href='#'>Placement Policy</a>
+                  <a href='#'>Internship Policy</a>
+                  <a href='#'>Placement Automation System</a>
+                  <a href='#'>Internship Automation System</a>
+                  <a href='#'>Preparation Portal</a>
+                  <a href='#'>FAQs</a>
+               </div>
+            </div>
+          </li>
+          <li>
+            <div className="dropdown">
+               <a href="ww">Contact Us</a><img alt="dropDown" src="http://i63.tinypic.com/a10f1c.png"></img>
+               <div className="dropdown-content">
+                  <a href='#'>Reach DTU</a>
+                  <a href='#'>Contacts</a>
+               </div>
+            </div>
+          </li>
         </ul>
       </nav>
     )
